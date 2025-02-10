@@ -1,0 +1,115 @@
+@media (max-width: 1000px) {
+  #main-snow {
+    top: 85px;
+    left: 1px;
+  }
+}
+@media (max-width: 930px) {
+  #main-snow {
+    max-width: 40px;
+    top: 67px;
+    left: -6px;
+  }
+}
+@media (max-width: 780px) {
+  #main-snow {
+    max-width: 40px;
+    top: 58px;
+  }
+}
+
+@media (max-width: 691px) {
+  #main-snow {
+    display: none;
+  }
+  .nav {
+    display: none;
+  }
+  .burger-menu {
+    display: block;
+  }
+  .main {
+    flex-direction: column-reverse;
+  }
+  .main-content {
+    width: 70%;
+    max-width: 330px;
+    text-align: center;
+    align-items: center;
+    gap: 14px;
+  }
+  .main-content p {
+    width: 72%;
+  }
+  .main-image {
+    padding-inline: 30px;
+  }
+
+  .main-run {
+    display: none;
+  }
+
+  .active-run {
+    display: block;
+  }
+
+  .active-run h3:nth-child(1) {
+    position: absolute;
+    top: 98px;
+    left: 17px;
+  }
+  .active-run h3:nth-child(2) {
+    position: absolute;
+    top: -50px;
+    left: 144px;
+  }
+  .active-run h3:nth-child(3) {
+    position: absolute;
+    top: 20px;
+    right: -30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .active-run h3:nth-child(1) {
+    position: absolute;
+    top: 91px;
+    left: 18px;
+  }
+  .active-run h3:nth-child(2) {
+    position: absolute;
+    top: -50px;
+    left: 144px;
+  }
+  .acive-run h3:nth-child(3) {
+    position: absolute;
+    top: 28px;
+    right: 20px;
+  }
+}
+
+@media (max-width: 458px) {
+  .active-run h3:nth-child(1) {
+    position: absolute;
+    top: 72px;
+    left: 34px;
+  }
+  .active-run h3:nth-child(2) {
+    position: absolute;
+    top: -51px;
+    left: 116px;
+  }
+  .acive-run h3:nth-child(3) {
+    position: absolute;
+    top: 15px;
+    right: 12px;
+  }
+}
+
+@media (max-width: 380px) {
+  .active-run h3:nth-child(1) {
+    position: absolute;
+    top: 47px;
+    left: 12px;
+  }
+}
