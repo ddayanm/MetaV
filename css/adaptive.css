@@ -131,12 +131,27 @@
   }
 }
 
-@media (max-width: 381px) {
+@media (max-width: 397px) {
   .main-content {
     width: 100%;
     max-width: 300px;
     text-align: center;
     align-items: center;
     gap: 14px;
+  }
+  .active-run h3:nth-child(1) {
+    position: absolute;
+    top: 61px;
+    left: -27px;
+  }
+  .active-run h3:nth-child(2) {
+    position: absolute;
+    top: -26px;
+    left: 78px;
+  }
+  .acive-run h3:nth-child(3) {
+    position: absolute;
+    top: 11px;
+    right: -37px;
   }
 }
