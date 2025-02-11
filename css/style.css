@@ -546,8 +546,8 @@ a {
   background: rgb(171, 159, 246);
   background: linear-gradient(
     90deg,
-    rgb(172, 161, 242) 15%,
-    rgb(126, 196, 247) 15%,
+    rgba(171, 159, 246, 1) 42%,
+    rgba(119, 193, 246, 1) 65%,
     rgba(101, 205, 245, 1) 100%
   );
 
