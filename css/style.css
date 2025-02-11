@@ -546,10 +546,11 @@ a {
   background: rgb(171, 159, 246);
   background: linear-gradient(
     90deg,
-    rgba(171, 159, 246, 1) 42%,
-    rgba(119, 193, 246, 1) 65%,
+    rgb(172, 161, 242) 10%,
+    rgb(126, 196, 247) 15%,
     rgba(101, 205, 245, 1) 100%
   );
+
   color: transparent;
   background-clip: text;
 }
