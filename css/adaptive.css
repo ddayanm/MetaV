@@ -68,6 +68,11 @@
     top: 13px;
     right: -41px;
   }
+
+  .work-cart {
+    display: flex;
+    align-items: center;
+  }
 }
 
 @media (max-width: 500px) {
@@ -153,5 +158,24 @@
     position: absolute;
     top: 11px;
     right: -37px;
+  }
+}
+
+@media (max-width: 675px) {
+  .lacus-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 820px) {
+  .lacus-content img {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 860px) {
+  .work-cart {
+    justify-content: center;
   }
 }

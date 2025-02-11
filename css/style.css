@@ -244,3 +244,195 @@ a {
   font-style: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
   font-weight: 300;
 }
+
+/* ? MAIN END */
+
+/* ? LACUS START */
+
+#lacus {
+  padding-block: 60px;
+}
+
+/* .lacus {
+  padding-block: 20px;
+} */
+
+.lacus-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.lacus-content img {
+  width: 100%;
+  max-width: 450px;
+}
+
+.lacus-text {
+  width: 100%;
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.lacus-text h1 {
+  width: 100%;
+  font-size: clamp(1.75rem, 1.591rem + 0.8vw, 2.188rem);
+}
+
+.lacus-text p {
+  width: 100%;
+  max-width: 455px;
+  font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+  color: #ffffffb6;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.lacus-btn {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.lacus-btn button {
+  padding: 10px 22px;
+  font-weight: 400;
+  /* 3 */
+  background: linear-gradient(
+    158.4deg,
+    rgb(209, 14, 209) 10.9%,
+    rgb(16, 163, 218) 88.221%
+  );
+}
+
+/* ? LACUS END */
+
+/* ? WORK START*/
+
+#work {
+  padding-block: 60px;
+}
+
+.text-work {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.text-work h1 {
+  width: 100%;
+  max-width: 650px;
+  font-size: clamp(1.75rem, 1.591rem + 0.8vw, 2.188rem);
+  text-align: center;
+}
+
+.text-work p {
+  width: 100%;
+  max-width: 550px;
+  font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+  color: #ffffffb6;
+  text-align: center;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.work-cart {
+  padding-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.work-cart .cart {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cart {
+  width: 100%;
+  max-width: 370px;
+  padding: 15px 20px;
+  background: #090823;
+  display: flex;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+.cart h3 {
+  font-size: clamp(1.063rem, 0.994rem + 0.34vw, 1.25rem);
+  font-weight: 500;
+}
+
+.cart p {
+  font-size: clamp(0.75rem, 0.705rem + 0.23vw, 0.875rem);
+  font-weight: 300;
+}
+.work-btn {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.work-btn button {
+  padding: 10px 22px;
+  font-weight: 400;
+  /* 3 */
+  background: linear-gradient(
+    158.4deg,
+    rgb(209, 14, 209) 10.9%,
+    rgb(16, 163, 218) 88.221%
+  );
+}
+
+.gradient-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  text-transform: none;
+  border-radius: 8px;
+  position: relative;
+  background-color: black;
+  cursor: pointer;
+  transition: 0.3s;
+  span {
+    position: relative;
+    z-index: 1;
+  }
+  /*  Градиентная рамка */
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 8px;
+    padding: 2px; /* Толщина градиента */
+    background: linear-gradient(90deg, #ff0080, #0078ff);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
+  /*  Hover эффект */
+  &:hover {
+    background: linear-gradient(90deg, #ff0080, #0078ff);
+    color: black;
+    &:before {
+      background: linear-gradient(90deg, black, black);
+    }
+  }
+}
+/* ? WORK END */
