@@ -68,11 +68,6 @@
     top: 13px;
     right: -41px;
   }
-
-  .work-cart {
-    display: flex;
-    align-items: center;
-  }
 }
 
 @media (max-width: 500px) {
@@ -206,16 +201,26 @@
   }
 }
 
-@media (max-width: 373px) {
-  .work-content {
+@media (max-width: 800px) {
+  .MetaV-content {
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .metav-text,
+  .about,
+  .service,
+  .contact {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+  .contact {
+    width: 50%;
+  }
+
+  .contact .logo img {
     width: 100%;
-    max-width: 300px;
+    max-width: 23px;
   }
 }
-
-/* @media (max-width: 360px) {
-  .work-content {
-    width: 100%;
-    max-width: 00px;
-  }
-} */

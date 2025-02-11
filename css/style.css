@@ -253,10 +253,6 @@ a {
   padding-block: 60px;
 }
 
-/* .lacus {
-  padding-block: 20px;
-} */
-
 .lacus-content {
   display: flex;
   align-items: center;
@@ -279,13 +275,13 @@ a {
 
 .lacus-text h1 {
   width: 100%;
-  font-size: clamp(1.75rem, 1.591rem + 0.8vw, 2.188rem);
+  font-size: clamp(1.125rem, 0.966rem + 0.8vw, 1.563rem);
   font-weight: 500;
 }
 
 .lacus-text p {
   width: 100%;
-  max-width: 455px;
+  max-width: 450px;
   font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
   color: #ffffffb6;
   font-weight: 300;
@@ -503,7 +499,7 @@ a {
   width: 1300px;
   display: flex;
   align-items: center;
-  padding: 30px;
+  padding-bottom: 150px;
   perspective: 800px;
 }
 
@@ -532,3 +528,81 @@ a {
   transform: rotateZ(180deg);
 }
 /* ? SLADER END */
+
+/* ? MetaV START*/
+#MetaV {
+  padding-block: 70px;
+  background: #090823;
+}
+
+.MetaV-content {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.MetaV-content h1 {
+  background: rgb(171, 159, 246);
+  background: linear-gradient(
+    90deg,
+    rgba(171, 159, 246, 1) 42%,
+    rgba(119, 193, 246, 1) 65%,
+    rgba(101, 205, 245, 1) 100%
+  );
+  color: transparent;
+  background-clip: text;
+}
+
+.MetaV-content p {
+  width: 100%;
+  max-width: 400px;
+  font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+  color: #ffffffb6;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.metav-text {
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.contact .logo {
+  display: flex;
+  gap: 23px;
+}
+.contact .logo img {
+  width: 100%;
+  max-width: 35px;
+  padding: 1px;
+}
+
+.contact p {
+  width: 100%;
+  max-width: 250px;
+  font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+  color: #ffffffb6;
+  font-weight: 300;
+  line-height: 20px;
+}
+/* ? MetaV END */
