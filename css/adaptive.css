@@ -205,7 +205,6 @@
   .MetaV-content {
     justify-content: space-between;
     flex-direction: column;
-    align-items: center;
   }
 
   .about,
@@ -215,11 +214,11 @@
     margin-bottom: 20px;
   }
   .contact {
-    width: 50%;
+    width: 80%;
   }
 
   .contact .logo img {
     width: 100%;
-    max-width: 23px;
+    max-width: 20px;
   }
 }
